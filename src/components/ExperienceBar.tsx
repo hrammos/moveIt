@@ -1,8 +1,8 @@
-import styles from 'styles/components/ExperienceBar.module.css'
+import styles from 'styles/components/ExperienceBar.module.css';
 
 export const ExperienceBar = () => (
   <header className={styles.experienceBar}>
-      
+
     <span>0 xp</span>
 
     <div>
@@ -12,7 +12,7 @@ export const ExperienceBar = () => (
         300 xp
       </span>
     </div>
-    
+
     <span>600 xp</span>
   </header>
 )
